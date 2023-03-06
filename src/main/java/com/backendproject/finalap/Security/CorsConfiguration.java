@@ -14,51 +14,37 @@ public class CorsConfiguration {
             @Override
             public void addCorsMappings(CorsRegistry registry){
                 registry.addMapping("/login")
-                        .allowedOrigins("http://localhost:4200")
+//                        .allowedOrigins("http://localhost:4200")
+                        .allowedOrigins("https://apfinal-frontend.web.app")
                         .allowedMethods("*")
                         .exposedHeaders("*");
 
 // podemos especificar una ruta generica para varios endpoints, ejemplo: ("/ruta/**")
                 
                 registry.addMapping("/abtm/**")
-                        .allowedOrigins("http://localhost:4200")
+//                        .allowedOrigins("http://localhost:4200")
+                        .allowedOrigins("https://apfinal-frontend.web.app")
                         .allowedMethods("*");
                 
                 registry.addMapping("/prjs/**")
-                        .allowedOrigins("http://localhost:4200")
+//                        .allowedOrigins("http://localhost:4200")
+                        .allowedOrigins("https://apfinal-frontend.web.app")
                         .allowedMethods("*");
                 
                 registry.addMapping("/ed/**")
-                        .allowedOrigins("http://localhost:4200")
+//                        .allowedOrigins("http://localhost:4200")
+                        .allowedOrigins("https://apfinal-frontend.web.app")
                         .allowedMethods("*");
                 
                 registry.addMapping("/techs/**")
-                        .allowedOrigins("http://localhost:4200")
+//                        .allowedOrigins("http://localhost:4200")
+                        .allowedOrigins("https://apfinal-frontend.web.app")
                         .allowedMethods("*");
                 
                 registry.addMapping("/ss/**")
-                        .allowedOrigins("http://localhost:4200")
+//                        .allowedOrigins("http://localhost:4200")
+                        .allowedOrigins("https://apfinal-frontend.web.app")
                         .allowedMethods("*");
-                
-//                registry.addMapping("/ed/update/{id}")
-//                        .allowedOrigins("http://localhost:4200")
-//                        .allowedMethods("*")
-//                        .exposedHeaders("*");
-//                
-//                registry.addMapping("/ed/list")
-//                        .allowedOrigins("http://localhost:4200")
-//                        .allowedMethods("*")
-//                        .exposedHeaders("*");
-//                
-//                registry.addMapping("/ed/add")
-//                        .allowedOrigins("http://localhost:4200")
-//                        .allowedMethods("*")
-//                        .exposedHeaders("*");
-//                
-//                registry.addMapping("/ed/delete/{id}")
-//                        .allowedOrigins("http://localhost:4200")
-//                        .allowedMethods("*")
-//                        .exposedHeaders("*");
             }
         };
 
