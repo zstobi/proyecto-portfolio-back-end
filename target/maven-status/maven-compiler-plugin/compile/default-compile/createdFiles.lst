@@ -8,7 +8,6 @@ com\backendproject\finalap\Dto\prjsDto.class
 com\backendproject\finalap\Security\JWT\JwtAuthorizationFilter.class
 com\backendproject\finalap\Security\JWT\TokenUtils.class
 com\backendproject\finalap\Entities\Education.class
-.netbeans_automatic_build
 com\backendproject\finalap\Entities\Techs.class
 com\backendproject\finalap\Security\Controller\EditionController.class
 com\backendproject\finalap\Services\EducationService.class
