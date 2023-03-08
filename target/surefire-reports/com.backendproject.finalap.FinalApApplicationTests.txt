@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.backendproject.finalap.FinalApApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.573 s - in com.backendproject.finalap.FinalApApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.443 s - in com.backendproject.finalap.FinalApApplicationTests
